@@ -33,3 +33,4 @@ const products2 = [
 ];
 
 console.log(products2.filter(element => element.photos !== undefined));
+console.log(products2.sort((element1, element2) => element1.price - element2.price));
